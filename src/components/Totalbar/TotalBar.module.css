@@ -1,0 +1,32 @@
+.container {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid #e8dfed;
+	padding: 19px;
+	font-size: 20px;
+	background-color: #fff;
+}
+
+@media screen and (min-width: 700px) {
+	.container {
+		bottom: 20px;
+		max-width: 700px;
+		border-top: none;
+		border: 1px solid #e8dfed;
+		border-radius: 5px;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	}
+}
+
+.total {
+	display: flex;
+	align-items: center;
+	color: #250b38;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 26px;
+}

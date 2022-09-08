@@ -1,0 +1,35 @@
+.buttonLight,
+.buttonDark {
+	height: 38px;
+	width: 125px;
+	border: none;
+	border-radius: 19px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 21px;
+	text-align: center;
+}
+
+.buttonLight {
+	background-color: #f0a023;
+}
+
+.buttonDark {
+	background-color: transparent;
+	border: 2px solid #f0a023;
+}
+
+.buttonDark:hover {
+	background-color: #f0a023;
+}
+
+.buttonLight:hover {
+	background-color: #250b38;
+}
+
+.buttonDark:hover,
+.buttonLight:hover {
+	cursor: pointer;
+	transition: 0.1s all;
+}

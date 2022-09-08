@@ -1,0 +1,25 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding-block: 8px;
+	border-bottom: 1px solid #e8dfed;
+}
+
+.container input {
+	border: 1px solid #eae8ec;
+	border-radius: 4px;
+	padding: 5px 5px;
+	color: #52526a;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 500;
+}
+
+.name {
+	width: 70%;
+}
+
+.amount {
+	width: 25%;
+	text-align: right;
+}

@@ -1,0 +1,19 @@
+.container {
+	background-color: #f4eef7;
+	margin-inline: 6px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.total {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5px;
+	color: #250b38;
+}
+
+.totalAmount {
+	font-size: 18px;
+	line-height: 23px;
+	font-weight: bold;
+}
